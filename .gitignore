@@ -26,6 +26,7 @@ xcuserdata
 *.moved-aside
 *.xcuserstate
 *.xcscmblueprint
+Index
 
 ## Obj-C/Swift specific
 *.hmap
@@ -41,6 +42,7 @@ Carthage/Cartfile.resolved
 
 # Inspector files
 Inspector/node_modules
+Inspector/package-lock.json
 
 # Resource bundle recreated on each build
 Resources/WebDriverAgent.bundle
@@ -50,3 +52,6 @@ Modules/module.modulemap
 
 # test run
 *.trace
+
+# Pod resources
+Pods/

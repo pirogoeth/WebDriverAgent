@@ -1,3 +1,8 @@
+#include "../Pods/Target Support Files/Pods-WebDriverAgentRunner/Pods-WebDriverAgentRunner.release.xcconfig"
+#include "../Pods/Target Support Files/Pods-WebDriverAgentRunner/Pods-WebDriverAgentRunner.debug.xcconfig"
+
+#include "../Pods/Target Support Files/Pods-WebDriverAgentLib/Pods-WebDriverAgentLib.release.xcconfig"
+#include "../Pods/Target Support Files/Pods-WebDriverAgentLib/Pods-WebDriverAgentLib.debug.xcconfig"
 
 GCC_TREAT_WARNINGS_AS_ERRORS = YES
 GCC_WARN_PEDANTIC = YES

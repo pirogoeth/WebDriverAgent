@@ -41,6 +41,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @protocol FBWebServerDelegate <NSObject>
 
+- (void)webServerDidStart:(FBWebServer *)webServer;
+
 /**
  The server requested WebDriverAgent service shutdown.
 
